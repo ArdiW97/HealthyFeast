@@ -1,0 +1,25 @@
+label {
+    color: black;
+}
+.fom {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), 
+    url("https://watermark.lovepik.com/photo/40015/3536.jpg_wh1200.jpg");
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+.label-register {
+    color: #FFBF00;
+}
+.tex {
+    color: #FFBF00;
+}
+.btn {
+    color: #F3EFE0;
+}
+.btn:hover {
+    background-color: red;
+}
+.crd {
+    background-color: #222222;
+}

@@ -1,0 +1,59 @@
+  .det {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), 
+    url("https://watermark.lovepik.com/photo/40015/3536.jpg_wh1200.jpg");
+  }
+  .rateimg {
+    margin-top: -22px;
+  }
+  
+  .food-detail, .list-review, .text-review {
+    max-width: 600px;
+    background-color: #222222;
+    color: #FFBF00;
+    font-family: 'Asul', sans-serif;
+  }
+  
+  .card-footer .card-footer-text {
+    font-size: 13px;
+  }
+  
+  .img-profile {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFBF00;
+  }
+  
+  .review-name {
+    font-size: 13px;
+  }
+  
+  .ri-star-fill {
+    font-size: 15px;
+    color: #FFD700;
+  }
+  
+  .ri-heart-fill {
+    font-size: 15px;
+    color: #FF0000;
+  }
+  
+  .ri-award-line {
+    font-size: 22px;
+  }
+  
+  .review-comment p{
+    font-size: 12px;
+  }
+  
+  .rate {
+    font-size: 14px;
+  }
+  @media (max-width: 576px) {
+    .img-food {
+      height: 350px;
+      width: 350px;
+      object-fit: cover;
+    }
+  }

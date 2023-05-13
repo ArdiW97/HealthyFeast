@@ -1,0 +1,13 @@
+
+  .profile-detail {
+    max-width: 550px;
+    background-color: #222222;
+  }
+  
+  .img-profile-page {
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    border: 2px solid #FFBF00;
+    object-fit: cover;
+  }

@@ -1,0 +1,38 @@
+
+  #navbarSupportContent {
+    justify-content: space-between;
+  }
+  #togle {
+    background-color: #FFBF00;
+  }
+  .logo {
+    font-family: 'Lobster', cursive;
+    color: #FFBF00;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+  @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+  .nav-link {
+    font-size: 25px;
+    color: #F3EFE0;
+    font-weight: bold;
+    font-family: 'Asul', sans-serif;
+  }
+  .nav-link:hover {
+    color: #FFBF00;
+  }
+  .link .nav-link:active,
+.link .nav-link:visited {
+  color: #F3EFE0;
+}
+.link .nav-link:focus {
+  color: #FFBF00;
+}
+.dropdown-menu.show {
+  background-color: #222222;
+  left: -60%;
+}
+.dropdown-item {
+  color: #FFBF00;
+}

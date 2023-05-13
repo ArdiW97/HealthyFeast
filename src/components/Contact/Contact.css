@@ -1,0 +1,44 @@
+/* .contact {
+  background-color: #222222
+  } */
+  .tc {
+    font-family: 'Asul', sans-serif;
+  }
+  .contact img {
+    width: 100%;
+  }
+  .contact h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFBF00;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+  .touch {
+    display: flex;
+    align-items: center;
+  }
+  .touch a {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 2px solid #F3EFE0;
+  }
+  .touch a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+  }
+  .touch p {
+    color: #F3EFE0;
+    font-family: 'Asul', sans-serif;
+    font-size: 22px;
+  }

@@ -1,0 +1,26 @@
+
+  .title {
+    color: #FFBF00;
+    font-family: 'Asul', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  
+  .card-image {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .ri-star-fill {
+    font-size: 15px;
+    color: #FFD700;
+  }
+  
+  .ri-heart-fill {
+    font-size: 15px;
+  }
+  
+  .rate {
+    font-size: 14px;
+  }

@@ -1,0 +1,14 @@
+
+  .text-danger {
+    font-size: 12px;
+  }
+  .btnnn {
+    height: 35px;
+  }
+  Form {
+    top: -15px;
+    height: 450px;
+    color: #FFBF00;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), 
+    url("https://watermark.lovepik.com/photo/40015/3536.jpg_wh1200.jpg");    
+  }

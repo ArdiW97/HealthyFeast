@@ -1,0 +1,42 @@
+
+  .allfood {
+    color: #F3EFE0;
+    font-family: 'Asul', sans-serif;
+  }
+  .ri-star-fill {
+    font-size: 15px;
+    color: #FFD700;
+  }
+  .view {
+    color: #FFBF00;
+    font-family: 'Asul', sans-serif;
+  }
+  .view:hover {
+    color: red;
+  }
+  
+  .ri-heart-fill {
+    font-size: 15px;
+  }
+  
+  .rate {
+    font-size: 14px;
+  }
+  
+  .text-card {
+    font-size: 13px;
+  }
+  
+  .btn-edit-delete {
+    height: 35px;
+    width: 35px;
+  }
+  .fomfood {
+    top: -15px;
+    height: 515px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), 
+    url("https://watermark.lovepik.com/photo/40015/3536.jpg_wh1200.jpg");  
+  }
+  .bs {
+    height: 35px;
+  }

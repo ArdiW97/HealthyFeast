@@ -1,0 +1,75 @@
+  .space {
+    margin-bottom: 20vh;
+  }
+  .tp {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #222222;
+    display:inline-block;
+    border:0;
+    width: 100%;
+    color: #F3EFE0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+  .tp:hover {
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+  }
+  .pic {
+    height: 230px;
+    transition: 0.3s ease-in-out;
+  }
+  .card-title {
+    font-weight: bold;
+    font-family: 'Asul', sans-serif;
+  }
+  @media (max-width: 768px) {
+    .p-responsive {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .tp {
+      max-width: 360px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .tp {
+      max-width: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .tp {
+      max-width: 500px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .tp {
+      max-width: 600px;
+    }
+  }
+  
+  

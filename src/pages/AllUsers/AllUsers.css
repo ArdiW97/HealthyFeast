@@ -1,0 +1,18 @@
+
+  .img-card-profile {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #509E2F;
+  }
+
+  .font-12px {
+    font-size: 14px;
+  }
+  .fomuser {
+    top: -55px;
+    height: 185px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), 
+    url("https://watermark.lovepik.com/photo/40015/3536.jpg_wh1200.jpg");
+  }

@@ -1,0 +1,55 @@
+.car {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+.owl-carousel {
+  margin-bottom: 20vh;
+}
+.owl-carousel .item {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  margin-top: 18%;
+}
+
+.owl-carousel .item img {
+  max-height: 380px;
+  border-radius: 10px;
+}
+.item {
+  text-align: center;
+  opacity: 0.5;
+  transform: scale3d(0.7, 0.7, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+.owl-item.active.center .item {
+  opacity: 1;
+  transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-dots .owl-dot span {
+  background-color: #CF0A0A;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px 5px;
+}
+.item img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+.owl-item.active.center :hover {
+  transform: translate3d(0%, -5%, 10px);
+  box-shadow: 8px 45px 42px -8px rgba(0, 0, 0, 0.75);
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .owl-carousel {
+    flex-direction: column;
+  }
+
+  .item {
+    margin: 20px;
+  }
+}
+
