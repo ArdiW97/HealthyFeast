@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import "../Login/Login.css";
-import $ from "jquery";
-import { useEffect } from "react";
+
 
 const Login = () => {
   const formLogin = useFormik({
@@ -53,57 +52,9 @@ const Login = () => {
     },
   });
 
-  useEffect(() => {
-    const form = $("form");
-    const formControl = $(".form-control");
-
-    formControl.focusin(function () {
-      form.addClass("up");
-    });
-
-    formControl.focusout(function () {
-      form.removeClass("up");
-    });
-
-    $(document).on("mousemove", function (event) {
-      let dw = $(document).width() / 15;
-      let dh = $(document).height() / 15;
-      let x = event.pageX / dw;
-      let y = event.pageY / dh;
-      $(".eye-ball").css({
-        width: x,
-        height: y,
-      });
-    });
-  }, []);
-
   return (
     <>
-      <div className="panda">
-        <div className="ear"></div>
-        <div className="face">
-          <div className="eye-shade"></div>
-          <div className="eye-white">
-            <div className="eye-ball"></div>
-          </div>
-          <div className="eye-shade rgt"></div>
-          <div className="eye-white rgt">
-            <div className="eye-ball"></div>
-          </div>
-          <div className="nose"></div>
-          <div className="mouth"></div>
-        </div>
-        <div className="body"></div>
-        <div className="foot">
-          <div className="finger"></div>
-        </div>
-        <div className="foot rgt">
-          <div className="finger"></div>
-        </div>
-      </div>
-      <form onSubmit={formLogin.handleSubmit}>
-        <div className="hand"></div>
-        <div className="hand rgt"></div>
+      <form className="foorm" onSubmit={formLogin.handleSubmit}>
         <h2 className="txt text-center mb-3">Log in</h2>
         <div className="mb-3">
           <label className="form-label fw-bold mb-0 inp">Email</label>
